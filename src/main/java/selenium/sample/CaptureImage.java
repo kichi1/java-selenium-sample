@@ -13,7 +13,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import net.bytebuddy.asm.Advice.This;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
@@ -21,7 +20,7 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 public class CaptureImage {
     private static final String FILE_DATE_FORMAT = "yyyyMMddHHmmss";
 
-    private static Logger logger = LoggerFactory.getLogger(This.class);
+    private static Logger logger = LoggerFactory.getLogger(CaptureImage.class);
 
     /**
      * 起動メソッド.
