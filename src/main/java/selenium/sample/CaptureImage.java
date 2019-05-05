@@ -53,7 +53,8 @@ public class CaptureImage {
         } finally {
             // ブラウザ閉じる
             if (driver != null) {
-                driver.close();
+//                driver.close();
+                driver.quit();
                 driver = null;
             }
         }
