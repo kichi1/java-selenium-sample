@@ -94,7 +94,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>selenium.test.CaptureImage</mainClass>
+                                    <mainClass>selenium.sample.CaptureImage</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
