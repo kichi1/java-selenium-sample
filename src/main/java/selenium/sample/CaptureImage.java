@@ -32,7 +32,7 @@ public class CaptureImage {
 
         // choromeバージョンに合わせて、chromedriverを設定。※今回は74
         // drivrダウンロードサイト→http://chromedriver.chromium.org/downloads
-        System.setProperty("webdriver.chrome.driver", "driver/74chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 
         try {
             driver = new ChromeDriver();
